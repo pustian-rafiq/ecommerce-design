@@ -475,6 +475,9 @@ footer .copyright{
 /*Start Responsive Media Queries */
 
 @media(max-width: 799px){
+    .section-p1{
+        padding: 40px 40px;
+    }
     #navbar{
         display: flex;
         flex-direction: column;
@@ -515,5 +518,42 @@ footer .copyright{
     }
     #cartIcon{
         display: none;
+    }
+    /* Hero section */
+    #hero{
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    #hero h4,h2,h1{
+        font-size: 20px;
+    }
+  
+    #hero button{
+        font-size: 16px;
+        padding: 14px 50px 14px 55px;
+    } 
+    /* Featured section */
+    
+    #feature .feature-box{
+        margin: 15px 15px;
+        width: 100px;
+        padding: 5px 5px;
+    }
+    #feature .feature-box h6{
+        font-size: 10px;
+    }
+    
+    #feature-product .product-container{
+        justify-content: center;
+
+    }
+    #feature-product .pro{
+        margin: 15px;
+    }
+    #banner{
+   
+        height: 30vh;
+ 
     }
 }
