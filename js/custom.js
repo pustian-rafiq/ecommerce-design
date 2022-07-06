@@ -6,6 +6,7 @@ const close = document.getElementById('close')
 if(menuIconBar){
     menuIconBar.addEventListener("click", ()=> {
         navBar.classList.add('active')
+        navBar.style.transition="all 1s ease"
     })
 }
 //When click close icon,remove active class
